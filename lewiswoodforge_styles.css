@@ -142,9 +142,8 @@
 		white-space: nowrap;
 	}
 	
-	nav a {
-		text-decoration: none; 
-		padding-right: 10px;
+	nav li {
 		display: block;
+		width: 100px;
 	}
 }
