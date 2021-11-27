@@ -54,15 +54,12 @@
 
 	nav li {
 		display: inline;
+		padding: 20,20;
 	}
 
 	footer {
 		font-size:125%;
 		text-align:center;
-	}
-
-	li.nav_li {
-		
 	}
 	
 	table.navigation {
