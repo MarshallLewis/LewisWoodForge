@@ -62,6 +62,10 @@
 		text-align:center;
 	}
 	
+	li.nav_li {
+		padding: 20px;
+	}
+
 	table.navigation {
 		font-size:110%;
 		font-family:sans-serif;
