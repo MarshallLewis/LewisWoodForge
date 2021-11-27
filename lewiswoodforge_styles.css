@@ -142,8 +142,12 @@
 		white-space: nowrap;
 	}
 	
-	nav li {
+	nav ul {
+		font-size:110%;
+		font-family:sans-serif;
+		margin-left:auto;
+		margin-right:auto;
+		list-style-type: none;
 		display: block;
-		width: 100px;
 	}
 }
