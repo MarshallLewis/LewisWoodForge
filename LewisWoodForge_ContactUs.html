@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="lewiswoodforge_styles.css">
+		<link rel="icon" href="assets/favicon.jpg" type="image/gif" sizes="32x32">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Contact Us</title>
+
+	</head>
+
+
+
+	<body>
+
+		<!--h1>Lewis Wood Forge</h1>  THE OLD TEXT ONLY HEADER -->
+		<!--img src="assets/logotitle.png" alt="Lewis Wood Forge Logo" height="100" width="375" THE OLD STATIC SIZED LOGO-->
+		<picture>
+			<source media="(min-width: 1200px)" srcset="assets/logotitle.png">
+			<source media="(min-width: 800px)" srcset="assets/logotitle500px.png">
+			<source media="(min-width: 600px)" srcset="assets/logotitle400px.png">
+			<source media="(min-width: 400px)" srcset="assets/logotitle250px.png">
+			<source media="(min-width: 200px)" srcset="assets/logotitle100px.png">
+			<img src="assets/logotitle.png" alt="Lewis Wood Forge Logo">
+		</picture>
+		
+		<hr>
+		<nav>
+			<ul class="navigation">
+				<li><a href="LewisWoodForge_Home.html">Home</a></li>
+				<li><a href="LewisWoodForge_AboutUs.html">About Us</a></li>
+				<li><a href="LewisWoodForge_Directions.html">Directions</a></li>
+				<li><a href="LewisWoodForge_ContactUs.html">Contact Us</a></li>
+			<ul>
+		</nav>
+		<hr>
+		
+		<h2 class="title">QUESTIONS? CONTACT US!</h2>
+
+		<p>Please fill out the "Contact Us" form below or <a href="mailto:mplewis@lewiswoodforge.com">email us</a> with any questions. You can also contact our shop at (804) 555-7810.</p>
+
+		<form method="get">
+			<fieldset>
+				<legend>Contact Information</legend>
+				<label for="firstname">First Name:</label> <input type="text" name="firstname" id="firstname">
+				<br>
+				<label for="lastname">Last Name:</label> <input type="text" name="lastname" id="lastname">
+				<br>
+				<label for="email">E-mail:</label> <input type="text" name="email" id="email" >
+				<br>
+				<label for="phone">Phone Number:</label> <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(555) 555-5555">
+				<select name="phonetype" id="phonetype">
+					<option value="cell">Cell</option>
+					<option value="home">Home</option>
+					<option value="work">Work</option>
+					<option value="other">Other</option>
+				</select>
+				<br>
+				<label for="subject">Subject:</label> <input type="text" name="subject" id="subject" >
+				<br>
+				<label for="information">Additional Information:</label> <br><textarea name="information" id="information" placeholder="Enter your questions or requests here."></textarea>
+				<br>
+				<input type="submit" value="Contact Us!"> <input type="reset">
+			</fieldset>
+		</form>
+
+		<br><br>
+
+		<div>
+		<a href="LewisWoodForge_Home.html">Home</a>
+		<a href="LewisWoodForge_AboutUs.html">About Us</a>
+		<a href="LewisWoodForge_Directions.html">Directions</a>
+		<a href="LewisWoodForge_ContactUs.html">Contact Us</a>
+		</div>
+
+		<footer><i>&copy;2018-2021 Lewis Wood Forge. All Rights Reserved</i></footer>
+
+	</body>
+</html>
+
+
+<!-- Color Scheme, light tan, dark tan, brown, light gray, dark gray -->

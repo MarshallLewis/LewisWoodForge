@@ -1,0 +1,143 @@
+	h1 {
+		font-size:300%;
+		font-family:sans-serif;
+		color:#641E16;
+	}
+
+	h2 {
+		font-size:150%;
+		font-family:sans-serif;
+	}
+
+	h3 {
+		font-size:125%;
+		font-family:sans-serif;
+	}
+	
+	h4 {
+		font-size:105%;
+		font-family:sans-serif;
+	}
+
+	body {
+		margin-left:75px;
+		margin-right:75px;
+		text-align:center;
+		background-color:tan;
+	}
+
+	p {
+		color:#404040;
+		font-size:110%;
+	}
+
+	ul {
+		color:#404040;
+		font-size:115%;
+		display: table; 
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	nav ul {
+		font-size:110%;
+		font-family:sans-serif;
+		margin-left:auto;
+		margin-right:auto;
+		list-style-type: none;
+	}
+	
+	nav a {
+		text-decoration: none; 
+		padding-right: 10px;
+	}
+
+	nav li {
+		display: inline;
+	}
+
+	footer {
+		font-size:125%;
+		text-align:center;
+	}
+	
+	table.navigation {
+		font-size:110%;
+		font-family:sans-serif;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	table.products {
+		margin-left:auto;
+		margin-right:auto;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+	td.products, th.products {
+		font-size:120%;
+		font-family:sans-serif;
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding:10px;
+	}
+	
+	textarea {
+		min-width:400px;
+		max-width:700px;
+		min-height:75px;
+	}
+	
+	label {
+		padding:5px;
+		display:inline-block;
+	}
+	
+
+@media (min-width: 760px){
+	
+	.show-on-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 760px), (max-device-width: 760px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, td, tr { 
+		display: block; 
+	}
+	
+	th {
+		display: none;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+}
