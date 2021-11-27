@@ -145,4 +145,9 @@
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
+	
+	nav li {
+		display: block;
+		width: 60px;
+	}
 }
