@@ -108,13 +108,13 @@
 		cursor: pointer;
 	}
 
-	.button1 {
+	.ordernow {
 		background-color: white; 
 		color: black; 
 		border: 2px solid #4CAF50;
 	}
 
-	.button1:hover {
+	.ordernow:hover {
 	  background-color: #4CAF50;
 	  color: white;
 	}
