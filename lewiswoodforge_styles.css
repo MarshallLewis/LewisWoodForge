@@ -118,6 +118,12 @@
 	  background-color: white;
 	  color: black;
 	}
+
+	.igicon {
+		width: 84px;
+		height: 84px;
+		float: right;
+	}
 	
 
 @media (min-width: 760px){
