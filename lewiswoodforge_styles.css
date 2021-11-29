@@ -123,7 +123,11 @@
 		width: 84px;
 		height: 84px;
 		float: right;
+	}
 
+	a.igicon {
+		position: relative;
+		bottom: 25px;
 	}
 	
 
