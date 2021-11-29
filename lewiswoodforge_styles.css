@@ -181,4 +181,14 @@
 		display: block;
 		width: 100px;
 	}
+	
+	img.igicon {
+		width: 84px;
+		height: 84px;
+		float: none;
+	}
+
+	a.igicon {
+
+	}
 }
