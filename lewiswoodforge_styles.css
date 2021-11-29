@@ -122,10 +122,10 @@
 	img.igicon {
 		width: 84px;
 		height: 84px;
-		float: right;
 	}
 
 	a.igicon {
+		float: right;
 		position: relative;
 		bottom: 50px;
 	}
@@ -185,11 +185,11 @@
 	img.igicon {
 		width: 84px;
 		height: 84px;
-		float: none;
 	}
 
 	a.igicon {
 		position: relative;
 		bottom: 20px;
+		float: none;
 	}
 }
