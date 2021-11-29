@@ -123,6 +123,8 @@
 		width: 84px;
 		height: 84px;
 		float: right;
+		position: absolute;
+		bottom: 0;
 	}
 	
 
