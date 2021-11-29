@@ -189,6 +189,7 @@
 	}
 
 	a.igicon {
-
+		position: relative;
+		bottom: 20px;
 	}
 }
